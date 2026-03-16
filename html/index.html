@@ -16,16 +16,36 @@
             donde podras crear tus propias paletad de colores 
             de una manera facil y rapida.
         </p>
+        </header>
 <!-- tipos de paletas que se pueden crear -->
-    <h3>tipos de paletas</h3>
-    </header>
-    <main>
-        <article>
-        </article>
-    </main>
-    <button id="paleta1"> <img 1 src="/img/paleta1.png" alt="Logo de paleta 3 colores" width="120" /></button>
-    <button id="paleta2"> <img 2 src="/img/paleta2.png" alt="Logo de paleta 5 colores" width="120" /></button>
-    <button id="paleta3"> <img 3 src="/img/paleta3.png" alt="Logo de paleta 9 colores" width="120" /></button>
+<main>
 
-</body>
+    <h3>tipos de paletas</h3>
+
+    <style>
+    #palette { display:flex; gap:10px; margin:20px; }
+    .box { width:30px; height:30px; border:1px solid #000; }
+    </style>
+    <div id="palette1"></div>
+    <button onclick="generate1()"><img 1 src="/img/paleta1.png" alt="Logo de paleta 3 colores" width="100" /></button>
+    <h3>🎨 Paleta de 3 Colores</h3>       
+
+    <style>
+    #palette { display:flex; gap:10px; margin:20px; }
+    .box { width:30px; height:30px; border:1px solid #000; }
+    </style>
+    <div id="palette2"></div>
+    <button onclick="generate2()"> <img 2 src="/img/paleta2.png" alt="Logo de paleta 6 colores" width="120" /></button>
+    <h3>🎨 Paleta de 6 Colores</h3>
+
+    <style>
+    #palette { display:flex; gap:10px; margin:20px; }
+    .box { width:30px; height:30px; border:1px solid #000; }
+    </style>
+    <div id="palette3"></div>
+    <button onclick="generate3()"> <img 3 src="/img/paleta3.png" alt="Logo de paleta 9 colores" width="120" /></button>
+    <h3>🎨 Paleta de 9 Colores</h3>
+</main>
+<script src="/js/script.js"></script>
+    </body>
 </html>
