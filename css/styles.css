@@ -42,7 +42,6 @@ div#palette1, div#palette2, div#palette3 {
   display: grid ;             /* usa cuadrícula */
   grid-template-columns: repeat(4, 200px); /* 4 columnas */
   gap: 5px;                 /* espacio entre columnas */
-  border: 5px solid black;   /* borde alrededor */
   padding: 5px;             /* espacio interno */
 }
 
