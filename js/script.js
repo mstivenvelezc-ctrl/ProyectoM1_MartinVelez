@@ -55,8 +55,6 @@ function generate1(){
   }
 }
 
-window.onload=generate;
-
 // Genera la paleta2
 function generate2(){
   const p=document.getElementById('palette2'); p.innerHTML='';
@@ -77,8 +75,6 @@ function generate2(){
     p.appendChild(container);
   }
 }
-
-window.onload=generate;
 
 // Genera la paleta3
 function generate3(){
@@ -101,4 +97,3 @@ function generate3(){
   }
 }
 
-window.onload=generate;
