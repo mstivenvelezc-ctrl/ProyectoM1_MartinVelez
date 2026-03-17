@@ -19,11 +19,7 @@ main{
     max-width: 900px;
     margin: 20px auto;
 }
-div{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
+
 nav{
     width: 200px;
     height: 200px;
@@ -37,3 +33,23 @@ button :hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
+
+/* Centrar todo el contenido en la página */
+
+
+/* Cuadro que encierra la paleta */
+div#palette1, div#palette2, div#palette3 {
+  display: grid ;             /* usa cuadrícula */
+  grid-template-columns: repeat(4, 200px); /* 4 columnas */
+  gap: 5px;                 /* espacio entre columnas */
+  border: 5px solid black;   /* borde alrededor */
+  padding: 5px;             /* espacio interno */
+}
+
+/* Cada color con su nombre */
+div#palette > div {
+  display: flex;             /* recuadro y texto en fila */
+  align-items: center;       /* alinea verticalmente */
+  gap: 3px;                 /* espacio entre recuadro y texto */
+}
+
