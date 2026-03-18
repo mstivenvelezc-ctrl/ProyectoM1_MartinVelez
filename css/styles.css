@@ -1,16 +1,24 @@
 body {
     font-family: Arial, sans-serif;
-    background: #60b8a6;
+    background: #03c28c;
     margin: 12px;
     padding: 12px;
-    color: #560666;
+    color: #24062a;
 }
 img p{
     display: block;
-    margin: 20PX auto;
+    margin: 10PX auto;
+    border-radius: 50px;
 }
 header {
     text-align: center;
+    margin-bottom: 20px;
+}
+article {
+    background: #31f0c3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 5px rgba(0,0,0,1);
     margin-bottom: 20px;
 }
 main{
@@ -28,7 +36,7 @@ nav{
 }
 button :hover {
     background-color: #560666;
-    border:rgb(16, 0, 0) 2px solid;
+    border:rgb(0, 0, 0) 2px solid;
     padding: 10px 20px;
     transform: scale(1.1);
     transition: all 0.3s ease;
@@ -36,9 +44,6 @@ button :hover {
 #menu{
     display:none
 }
-/* Centrar todo el contenido en la página */
-
-
 /* Cuadro que encierra la paleta */
 div#palette1, div#palette2, div#palette3 {
   display: grid;             /* usa cuadrícula */;
