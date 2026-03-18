@@ -29,18 +29,20 @@ nav{
 button :hover {
     background-color: #560666;
     border:rgb(16, 0, 0) 2px solid;
-    padding: 10px 10px;
+    padding: 10px 20px;
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
-
+#menu{
+    display:none
+}
 /* Centrar todo el contenido en la página */
 
 
 /* Cuadro que encierra la paleta */
 div#palette1, div#palette2, div#palette3 {
-  display: grid ;             /* usa cuadrícula */;
-  grid-template-columns: repeat(4, 200px); /* 4 columnas */
+  display: grid;             /* usa cuadrícula */;
+  grid-template-columns: repeat(4, 230px); /* 4 columnas */
   gap: 5px;                 /* espacio entre columnas */
   padding: 5px;             /* espacio interno */
 }
@@ -51,4 +53,8 @@ div#palette > div {
   align-items: center;       /* alinea verticalmente */
   gap: 3px;                 /* espacio entre recuadro y texto */
 }
-
+div.box{
+  width: 180px;              /* tamaño del recuadro */
+  height: 50px;
+  border: 1px solid #000; /* borde negro */
+}

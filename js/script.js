@@ -26,12 +26,12 @@ function hexToHSL(hex){
 
 // Nombre básico según tono HSL
 function colorName(h){ 
-  if(h<30||h>=330) return "Rojo";
-  if(h<90) return "Amarillo";
-  if(h<150) return "Verde";
-  if(h<210) return "Cian";
-  if(h<270) return "Azul";
-  return "Magenta";
+  if(h<30||h>=330) return "hex: Rojo";
+  if(h<90) return "hex: Amarillo";
+  if(h<150) return "hex: Verde";
+  if(h<210) return "hex: Cian";
+  if(h<270) return "hex: Azul";
+  return "hex: Magenta";
 }
 
 // Genera la paleta1
@@ -52,6 +52,14 @@ function generate1(){
     const container=document.createElement('div');
     container.appendChild(box); container.appendChild(info);
     p.appendChild(container);
+  }
+}
+function generate(){
+  let menu=document.getElementById("menu");
+  if(menu.style.display=="none"){
+    menu.style.display="block";
+  }else{
+    menu.style.display="none";
   }
 }
 
