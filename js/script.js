@@ -34,6 +34,16 @@ function colorName(h){
   return "hex: Magenta";
 }
 
+// guarda los botones generadores
+function generate(){
+  let menu=document.getElementById("menu");
+  if(menu.style.display=="block"){
+    menu.style.display="none";
+  }else{
+    menu.style.display="block";
+  }
+}
+
 // Genera la paleta1
 function generate1(){
   const p=document.getElementById('palette1'); p.innerHTML='';
@@ -43,7 +53,7 @@ function generate1(){
     const name=colorName(hsl.h);
 
     const box=document.createElement('div');
-    box.className='box'; box.style.background=hex;
+    box.className='box1'; box.style.background=hex;
 
     const info=document.createElement('div');
     info.className='color-info';
@@ -52,14 +62,6 @@ function generate1(){
     const container=document.createElement('div');
     container.appendChild(box); container.appendChild(info);
     p.appendChild(container);
-  }
-}
-function generate(){
-  let menu=document.getElementById("menu");
-  if(menu.style.display=="block"){
-    menu.style.display="none";
-  }else{
-    menu.style.display="block";
   }
 }
 
@@ -72,7 +74,7 @@ function generate2(){
     const name=colorName(hsl.h);
 
     const box=document.createElement('div');
-    box.className='box'; box.style.background=hex;
+    box.className='box2'; box.style.background=hex;
 
     const info=document.createElement('div');
     info.className='color-info';
@@ -93,7 +95,7 @@ function generate3(){
     const name=colorName(hsl.h);
 
     const box=document.createElement('div');
-    box.className='box'; box.style.background=hex;
+    box.className='box3'; box.style.background=hex;
 
     const info=document.createElement('div');
     info.className='color-info';

@@ -5,14 +5,21 @@ body {
     padding: 12px;
     color: #24062a;
 }
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
 img p{
     display: block;
     margin: 10PX auto;
     border-radius: 50px;
 }
-header {
+main{
     text-align: center;
-    margin-bottom: 20px;
+    padding: 20px 20px;
+    max-width: 900px;
+    margin: 20px auto;
 }
 article {
     background: #31f0c3;
@@ -21,19 +28,28 @@ article {
     box-shadow: 2px 5px rgba(0,0,0,1);
     margin-bottom: 20px;
 }
-main{
-    text-align: center;
-    padding: 20px 20px;
-    max-width: 900px;
-    margin: 20px auto;
+/* Cuadro que encierra la paleta */
+#palette1, #palette2, #palette3 {
+  display: grid;             /* usa cuadrícula */
+  grid-template-columns: repeat(3, 1fr ); /* 3 columnas */
+  gap: 15px;                 /* espacio entre columnas */
+  padding: 15px;             /* espacio interno */
 }
 
-nav{
-    width: 200px;
-    height: 200px;
-    padding: 10px 10px 10px 10px;
-    font-size: 20px;
+/* Cada color con su nombre */
+#palette1 > div, #palette2 > div, #palette3 > div {
+  display: flex;             /* recuadro y texto en fila */
+  align-items: center;       /* alinea verticalmente */
+  gap: 10px;                 /* espacio entre recuadro y texto */
 }
+
+/* Recuadro de color */
+.box1, .box2, .box3 {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+
 button :hover {
     background-color: #560666;
     border:rgb(0, 0, 0) 2px solid;
@@ -44,22 +60,4 @@ button :hover {
 #menu{
     display:none
 }
-/* Cuadro que encierra la paleta */
-div#palette1, div#palette2, div#palette3 {
-  display: grid;             /* usa cuadrícula */;
-  grid-template-columns: repeat(4, 230px); /* 4 columnas */
-  gap: 5px;                 /* espacio entre columnas */
-  padding: 5px;             /* espacio interno */
-}
 
-/* Cada color con su nombre */
-div#palette > div {
-  display: flex;             /* recuadro y texto en fila */
-  align-items: center;       /* alinea verticalmente */
-  gap: 3px;                 /* espacio entre recuadro y texto */
-}
-div.box{
-  width: 180px;              /* tamaño del recuadro */
-  height: 50px;
-  border: 1px solid #000; /* borde negro */
-}
