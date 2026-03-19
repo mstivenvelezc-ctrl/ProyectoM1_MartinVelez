@@ -49,8 +49,8 @@ ColorflY Studio genera paletas de colores aleatorias (6, 8 y 9 colores) y muestr
 
 ### Interfaz de usuario
 
-![Captura de pantalla de la aplicación](/captura%20de%20pantalla%202026-03-18%20191452.png)
-![Captura de pantalla de la aplicación](/captura%20de%20pantalla%202026-03-18%20191604.png)
+![Captura de pantalla de la aplicación](captura%20de%20pantalla%202026-03-18%20191452.png)
+![Captura de pantalla de la aplicación](captura%20de%20pantalla%202026-03-18%20191604.png)
 
 ### Cómo usar
 1. Abre `html/index.html` en tu navegador (doble clic o arrastra al navegador).
