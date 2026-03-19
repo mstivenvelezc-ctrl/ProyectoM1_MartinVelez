@@ -47,10 +47,6 @@ ColorflY Studio genera paletas de colores aleatorias (6, 8 y 9 colores) y muestr
 - Código HEX
 - Código HSL
 
-### Interfaz de usuario
-
-![Captura de pantalla de la aplicación](/img/cap.png)
-![Captura de pantalla de la aplicación](/img/cap2.png)
 
 ### Cómo usar
 1. Abre `html/index.html` en tu navegador (doble clic o arrastra al navegador).
