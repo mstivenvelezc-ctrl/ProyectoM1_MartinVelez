@@ -10,9 +10,9 @@ header {
     text-align: center;
     margin-bottom: 20px;
 }
-img p{
+img{
     display: block;
-    margin: 10PX auto;
+    margin: 2px auto;
     border-radius: 50px;
     align-items: center;
 }
@@ -54,7 +54,7 @@ hr{
     border-radius: 10px;
 }
 
-button :hover {
+button:hover {
     background-color: #560666;
     border:rgb(0, 0, 0) 2px solid;
     border-radius: 5px;
